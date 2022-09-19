@@ -1,0 +1,19 @@
+/* slider */
+
+.container{
+    display: flex;
+    width: 330px;
+    color: black;
+    scroll-snap-type: x mandatory;
+    display: flex;
+    overflow: auto;
+    flex: none;
+    column-gap: 10px;
+  }
+  .card{
+    scroll-snap-align: center;
+    flex: none;
+    width: 256px;
+    padding: 10px 30px;
+    border-radius: 20px;
+  }
